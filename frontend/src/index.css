@@ -1,0 +1,72 @@
+/* Estilos base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #222;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 16px;
+  font-size: 1rem;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #005ecc;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 4px 0;
+}
+
+/* Estilos para formularios y contenedores */
+.p-4 {
+  padding: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.border {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+img {
+  margin-top: 1rem;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
